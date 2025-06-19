@@ -1,0 +1,29 @@
+# Environment & Config
+python-dotenv==1.0.1
+
+# OpenAI & Langchain
+openai==1.88.0               # Latest as of June 2025, Python 3.10+
+langchain==0.1.17            # Compatible with openai 1.x and Python 3.10
+
+# Transformers & Deep Learning
+transformers==4.40.1         # Compatible with torch 2.2 and Python 3.10
+torch==2.2.2                 # Final PyTorch 2.2 release for Python 3.10
+
+# FastAPI Web Server
+fastapi==0.110.2             # Latest stable supporting Pydantic v1
+uvicorn==0.29.0              # Production ASGI server
+
+# Data Validation & Parsing
+pydantic==1.10.15            # FastAPI 0.110 still uses Pydantic v1
+
+# Progress & Dev Tools
+tqdm==4.66.4
+
+# Core ML & Data Analysis
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.6.3
+seaborn==0.12.2
+jupyter==1.0.0
+joblib==1.2.0
