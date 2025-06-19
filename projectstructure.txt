@@ -1,0 +1,44 @@
+my project structure
+
+
+assistant-ai/
+├── core/                  # Reusable AI components
+│   ├── llm/              # Language model integrations          
+│   ├── base.py           # Abstract LLM interface
+│   ├── openai.py        # Commercial models
+│   └── local.py        # Your fine-tuned models
+│   ├── memory/           # Short/long-term memory
+│   ├── tools/            # Modular capabilities
+│   └── orchestrator.py   # Function calling router
+│
+├── features/             # Domain-specific features
+│   ├── internship/       # Your current tracker
+│   ├── email_assistant/  # Future module
+│   └── research/         # Future module
+│
+├── infrastructure/
+│   ├── database.py       # Unified data access
+│   ├── config.py        # Central configuration
+│   └── auth.py         # Future user management
+│
+├── interfaces/          # How users interact
+│   ├── cli/            # Command line
+│   ├── web/            # Future web UI
+│   └── voice/          # Future voice interface
+│
+├── training/                # All training logic
+│   ├── data_pipelines/      # Data preparation
+│   ├── finetuning/         # Model-specific trainers
+│   ├── evaluation/         # Metrics & testing
+│   └── active_learning/    # Continuous improvement
+│
+├── models/                 # Trained model artifacts
+│   ├── checkpoints/       # Versioned models
+│   └── deployed/         # Currently active model
+│
+└── main.py     # Entry point
+│__/.venv 
+│__ requiremetns.txt
+│__.gitignore
+│__.env
+│__README.md
