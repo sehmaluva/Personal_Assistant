@@ -1,1 +1,2 @@
-print("The beggingin of the program")
+print("The begining of the program")
+import date as dt
